@@ -8,7 +8,7 @@ $i = -join($image,"?dl=1")
 
 iwr $i -O $env:TMP\i.png
 
-# Download WAV file; replace link to $wav to add your own sound
+#modified
 
 $wav = "https://github.com/K1ll3nn/ScreamScript/blob/main/Creepy%2BLittle%2BGirl%2BTalking%2BScary%2BVoice%2BHorror%2BSounds%2B(FREE%2BTo%2BUse)_out.wav?raw=true"
 
